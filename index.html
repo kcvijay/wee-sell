@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEE-SELL: A shop for your daily choice</title>
+
+    <link rel="stylesheet" href="/CSS/query-sm.css" />
+    <link rel="stylesheet" href="/CSS/query-md.css" />
+    <link rel="stylesheet" href="/CSS/query-lg.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <section class="section-navigation">
+        <div class="navigation">
+          <div class="logo-header">
+            <div class="class-menu-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="menu-icon"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </div>
+            <a href="/index.html"></a>
+            <h1 class="logo-text">WEE-SELL</h1>
+          </div>
+
+          <div class="nav-menu-header">
+            <div class="nav-toggle-menu hide">
+              <ul class="nav-menu-list">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="close-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+
+                <li>
+                  <a href="/index.html"><strong>Home</strong></a>
+                </li>
+                <li>
+                  <a href="#"><strong>About us</strong></a>
+                </li>
+                <li><a href="#">Fresh Vegetables &mdash;</a></li>
+                <li><a href="#">Rice &mdash;</a></li>
+                <li><a href="#">Dry Foods &mdash;</a></li>
+                <li><a href="#">Drinks &mdash;</a></li>
+                <li><a href="#">Pickles &mdash;</a></li>
+                <li><a href="#">Utensils &mdash;</a></li>
+                <li class="cart-from-menu">
+                  <a href="/page-cart.html"><strong>View your cart</strong></a>
+                </li>
+              </ul>
+            </div>
+            <div class="class-home-icon">
+              <a href="/index.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="home-icon"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div class="class-cart-icon">
+              <a href="/page-cart.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="cart-icon"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+                  />
+                </svg>
+              </a>
+              <p class="cart-item-tag">1</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section-search-bar">
+        <input type="text" class="search-bar" placeholder="Search..." />
+        <button class="btn-search">SEARCH</button>
+      </section>
+
+      <section class="section-hero">
+        <img
+          class="hero-img"
+          src="/IMAGES/hero-cart.svg"
+          alt="illustration of sales"
+        />
+        <div class="hero-text-field">
+          <h2 class="hero-text">Asian Foods Now a Click Away</h2>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="features-header">
+          <p>Our Features</p>
+        </div>
+
+        <ul class="features-list">
+          <li>All Asian foods and snacks</li>
+          <li>Fresh vegetables Tuesday and Thursday</li>
+          <li>
+            Home delivery free inside capital city for more than 51€ purchase
+          </li>
+          <li>Opens everyday</li>
+          <li>Best of the quality products</li>
+        </ul>
+      </section>
+
+      <section class="hot-sheet">
+        <div class="hot-sheet-header">
+          <h2 class="sub-header-text">Today's Hot Picks</h2>
+        </div>
+
+        <div class="hot-pick-items">
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">12€</p>
+              <h3 class="item-name">Red Lentils 1kg</h3>
+              <p class="item-description">
+                Product ID: RL-1000A, Country of origin: Nepal
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">12€</p>
+              <h3 class="item-name">Red Lentils 1kg</h3>
+              <p class="item-description">
+                Product ID: RL-1000A, Country of origin: Nepal
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+
+          <div class="items">
+            <div class="class-item-img">
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">12€</p>
+              <h3 class="item-name">Red Lentils 1kg</h3>
+              <p class="item-description">
+                Product ID: RL-1000A, Country of origin: Nepal
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">12€</p>
+              <h3 class="item-name">Red Lentils 1kg</h3>
+              <p class="item-description">
+                Product ID: RL-1000A, Country of origin: Nepal
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="recently-added">
+        <div class="recently-added-header">
+          <h2 class="sub-header-text">Recently Added</h2>
+        </div>
+
+        <div class="recently-added-items">
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">4€</p>
+              <h3 class="item-name">Mixed Mango Pickle 1.5kg</h3>
+              <p class="item-description">
+                Product ID: MMP-1500B, Country of origin: India
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">4€</p>
+              <h3 class="item-name">Mixed Mango Pickle 1.5kg</h3>
+              <p class="item-description">
+                Product ID: MMP-1500B, Country of origin: India
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">4€</p>
+              <h3 class="item-name">Mixed Mango Pickle 1.5kg</h3>
+              <p class="item-description">
+                Product ID: MMP-1500B, Country of origin: India
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+
+          <div class="items">
+            <div class-item-img>
+              <img class="item-img" src="https://www.picsum.photos/175" />
+            </div>
+            <div class="item-details">
+              <p class="price-text">4€</p>
+              <h3 class="item-name">Mixed Mango Pickle 1.5kg</h3>
+              <p class="item-description">
+                Product ID: MMP-1500B, Country of origin: India
+              </p>
+            </div>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-short-cut">
+        <div class="short-cut-header">
+          <h2 class="sub-header-text">Short-cut</h2>
+        </div>
+
+        <div class="class-fresh-veg">
+          <a href="#"><h3 class="fresh-veg">Fresh Vegetables</h3></a>
+          <p>&rarr;</p>
+        </div>
+
+        <div class="class-rice">
+          <a href="#"><h3 class="rice">Rice</h3></a>
+          <p>&rarr;</p>
+        </div>
+
+        <div class="class-snacks">
+          <a href="#"><h3 class="snacks">Dry Foods / Snacks</h3></a>
+          <p>&rarr;</p>
+        </div>
+
+        <div class="class-drinks">
+          <a href="#"><h3 class="drinks">Drinks</h3></a>
+          <p>&rarr;</p>
+        </div>
+
+        <div class="class-pickles">
+          <a href="#"><h3 class="pickles">Pickles</h3></a>
+          <p>&rarr;</p>
+        </div>
+
+        <div class="class-utensils">
+          <a href="#"><h3 class="utensils">Utensils</h3></a>
+          <p>&rarr;</p>
+        </div>
+      </section>
+
+      <section class="view-cart">
+        <div class="btn-view-cart">
+          <h3><a href="/page-cart.html">View your cart</a></h3>
+        </div>
+      </section>
+
+      <div class="contact">
+        <div class="contact-header">
+          <h2 class="sub-header-text">Contact or Visit Us</h2>
+        </div>
+
+        <div class="contact-list">
+          <div class="contact-detail">
+            <p><strong>WEE-SELL</strong></p>
+            <p>Sell Nepali Market Oy</p>
+            <p>Arabiankatu 21</p>
+            <p>00210 Helsinki</p>
+            <p>Finland</p>
+            <br />
+            <p>Phone: 020 2145252</p>
+            <p>Email: weesell.fi@gmail.com</p>
+            <br />
+            <p>Opening hours: mon-fri: 8-17, sat-sun: 10-16</p>
+            <p>Business code: 2142021-0</p>
+            <br />
+            <p><strong>Follow us on:</strong></p>
+
+            <div class="social-links">
+              <a href="#"
+                ><img src="/IMAGES/facebook.png" alt="image of facebook"
+              /></a>
+              <a href="#"
+                ><img src="/IMAGES/INSTAGRAM.png" alt="image of facebook"
+              /></a>
+              <a href="#"><img src="/IMAGES/tiktok.png" /></a>
+            </div>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7214316369111!2d24.93600511608014!3d60.16879038196039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcc936d1fdd%3A0xd1d3d77114c834aa!2sForum!5e0!3m2!1sen!2sfi!4v1648307936419!5m2!1sen!2sfi"
+              width="auto"
+              height="auto"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/JAVASCRIPT/toggle-menu.js"></script>
+  </body>
+</html>

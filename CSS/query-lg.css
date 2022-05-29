@@ -1,0 +1,13 @@
+body {
+  max-width: 130rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-navigation,
+.section-search-bar,
+.section-hero {
+  max-width: 130rem;
+}
